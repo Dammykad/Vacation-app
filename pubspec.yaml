@@ -34,6 +34,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  curved_navigation_bar: ^1.0.6
 
 dev_dependencies:
   flutter_test:
@@ -90,12 +91,12 @@ flutter:
 
 
 
-/// bootstrap_icons
-// https://pub.dev/packages/bootstrap_icons
-bootstrap_icons: ^1.8.1
-import 'package:bootstrap_icons/bootstrap_icons.dart';
+# /// bootstrap_icons
+# // https://pub.dev/packages/bootstrap_icons
+# bootstrap_icons: ^1.8.1
+# import 'package:bootstrap_icons/bootstrap_icons.dart';
 
-Icon(Bootstrapicons.cart2);
-Icon(Bootstrapicons.gear);
-Icon(Bootstrapicons.hand_index);
-Icon(Bootstrapicons.upc_scan);
+# Icon(Bootstrapicons.cart2);
+# Icon(Bootstrapicons.gear);
+# Icon(Bootstrapicons.hand_index);
+# Icon(Bootstrapicons.upc_scan);

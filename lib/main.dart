@@ -1,3 +1,4 @@
+import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Color(0xFF0F0529),
         appBar: AppBar(
           centerTitle: true,
           shadowColor: Colors.black,
@@ -33,14 +35,13 @@ class MyApp extends StatelessWidget {
             134,
           ), // Set the background color to green
         ),
-        bottomNavigationBar: BottomNavigationBar(
-          items: const [
-            BottomNavigationBarItem(
-              icon: Icon(savedSearchOutlined),
-              label: 'Discover',
-            ),
-            BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Saved'),
-            BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
+        bottomNavigationBar: CurvedNavigationBar(
+          backgroundColor: Color(0xFF0F0529),
+          items:  [
+            Icon(Icons.home),
+            Icon(Icons.search),
+            Icon(Icons.settings),
+            
           ],
         ),
         body: const Center(child: Text('Welcome to My App!')),
@@ -54,3 +55,4 @@ const IconData savedSearchOutlined = IconData(
   0xf335,
   fontFamily: 'MaterialIcons',
 );
+// icon: Icon(savedSearchOutlined)
