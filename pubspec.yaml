@@ -87,3 +87,15 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+
+
+/// bootstrap_icons
+// https://pub.dev/packages/bootstrap_icons
+bootstrap_icons: ^1.8.1
+import 'package:bootstrap_icons/bootstrap_icons.dart';
+
+Icon(Bootstrapicons.cart2);
+Icon(Bootstrapicons.gear);
+Icon(Bootstrapicons.hand_index);
+Icon(Bootstrapicons.upc_scan);
