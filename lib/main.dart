@@ -37,9 +37,11 @@ class MyApp extends StatelessWidget {
         ),
         bottomNavigationBar: CurvedNavigationBar(
           backgroundColor: Color(0xFF0F0529),
+          color: Color(0xFF4A2574),
+          animationDuration: Duration(milliseconds: 300),
           items:  [
-            Icon(Icons.home),
             Icon(Icons.search),
+            Icon(Icons.home),
             Icon(Icons.settings),
             
           ],
